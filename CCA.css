@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+@media screen and (max-width:600px) {
+    .background {
+        background-image: url("https://img.freepik.com/free-vector/red-neon-meteor-background-design-vector_53876-168310.jpg?w=360&t=st=1674832785~exp=1674833385~hmac=717d0d620744e0a799c0dfc407cf72aee1fce55396af659d1cd8d83ce08b21dd");
+        background-size: cover;
+        width: auto;
+    }
+
+    .carousel {
+        margin: 10px;
+    }
+
+    .heading {
+        color: white;
+        font-family: "Monoton";
+    }
+
+    .image {
+        height: 250px;
+        border-radius: 20px;
+    }
+
+    .Nav {
+        height: 63px;
+        width: auto;
+    }
+
+    .color {
+        background-color: #000129;
+    }
+
+    .cell-heading {
+        color: white;
+        font-family: "Monospace";
+        margin: 10px;
+    }
+
+    .margin {
+        margin: 20px;
+    }
+
+    .footer {
+        background-color: #000129;
+        text-align: center;
+        height: 250px;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+
+    .icon {
+        margin: 15px;
+        animation: bounce 1s infinite;
+    }
+
+    .footer-h {
+        font-family: "Arial";
+        padding: 15px;
+        color: white;
+    }
+
+    .cursor {
+        cursor: pointer;
+
+    }
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(-25%);
+        animation-timing-function: cubic-bezie;
+    }
+
+    50% {
+        transform: translateY(0);
+        animation-timing-function: cubic-bezie;
+    }
+}
+
+@media screen and (min-width:610px) and (max-width:999px) {
+
+    .background {
+        background-image: url("https://img.freepik.com/free-vector/red-neon-meteor-background-design-vector_53876-168310.jpg?w=360&t=st=1674832785~exp=1674833385~hmac=717d0d620744e0a799c0dfc407cf72aee1fce55396af659d1cd8d83ce08b21dd");
+        background-size: cover;
+        width: auto;
+
+    }
+
+    .heading {
+        color: white;
+        font-family: "Monoton";
+    }
+
+    .image {
+        height: 400px;
+        width: 500px;
+        border-radius: 20px;
+    }
+
+    .carousel {
+        height: 410px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .Nav {
+        height: 63px;
+        width: auto;
+
+    }
+
+    .color {
+        background-color: #000129;
+    }
+
+    .cell-heading {
+        color: white;
+        font-family: "Monospace";
+        margin: 10px;
+    }
+
+    .margin {
+        margin: 20px;
+    }
+
+    .footer {
+        background-color: #000129;
+        text-align: center;
+        height: 300px;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+
+    .icon {
+        margin: 15px;
+        animation: bounce 1s infinite;
+    }
+
+    .footer-h {
+        font-family: "Arial";
+        padding: 15px;
+        color: white;
+
+    }
+
+    .cursor {
+        cursor: pointer;
+
+    }
+}
+
+@media screen and (min-width:1000px) and (max-width:2000px) {
+
+    .background {
+        background-image: url("https://img.freepik.com/free-vector/red-neon-meteor-background-design-vector_53876-168310.jpg?w=360&t=st=1674832785~exp=1674833385~hmac=717d0d620744e0a799c0dfc407cf72aee1fce55396af659d1cd8d83ce08b21dd");
+        background-size: cover;
+        width: auto;
+
+    }
+
+    .heading {
+        color: white;
+        font-family: "Monoton";
+    }
+
+    .image {
+        height: 400px;
+        width: 500px;
+        border-radius: 20px;
+    }
+
+    .carousel {
+        height: 410px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .Nav {
+        height: 63px;
+        width: auto;
+
+    }
+
+    .color {
+        background-color: #000129;
+    }
+
+    .cell-heading {
+        color: white;
+        font-family: "Monospace";
+        margin: 10px;
+    }
+
+    .margin {
+        margin: 20px;
+    }
+
+    .footer {
+        background-color: #000129;
+        text-align: center;
+        height: 300px;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+
+    .icon {
+        margin: 15px;
+        animation: bounce 1s infinite;
+    }
+
+    .footer-h {
+        font-family: "Arial";
+        padding: 15px;
+        color: white;
+
+    }
+
+    .cursor {
+        cursor: pointer;
+
+    }
+}
